@@ -1,0 +1,18 @@
+﻿<Window x:Class="ListApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ListApp"
+        mc:Ignorable="d"
+        Title="ListApp" Height="450" Width="800">
+    <Grid Background="#FF8AFCFF">
+        <TextBox x:Name="txtBox" HorizontalAlignment="Left" Height="47" Margin="57,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="537"/>
+        <Button Content="Add" HorizontalAlignment="Left" Height="75" Margin="57,176,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click"/>
+        <Button Content="Remove" HorizontalAlignment="Left" Height="75" Margin="255,176,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_1"/>
+        <Button Content="Show All" HorizontalAlignment="Left" Height="75" Margin="444,176,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_2"/>
+        <Button Content="Count" HorizontalAlignment="Left" Height="75" Margin="351,291,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_3"/>
+        <Button Content="Clear All" HorizontalAlignment="Left" Height="75" Margin="549,291,0,0" VerticalAlignment="Top" Width="150" Click="Button_Click_4"/>
+
+    </Grid>
+</Window>
